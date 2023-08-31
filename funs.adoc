@@ -1,0 +1,47 @@
+= Funções Afins:
+
+Funções afins descrevem uma relação linear entre duas variáveis. Elas têm a forma geral:
+
+\[ f(x) = mx + b \]
+
+Onde "f(x)" é o valor da função para um dado "x", "m" é o coeficiente angular (representando a taxa de variação) e "b" é o coeficiente linear (indicando o ponto onde a reta corta o eixo "y").
+
+== Exemplos do Mundo Real:
+
+=== Exemplo 1: Custo de Aluguel de Carro
+
+Imagine que você está alugando um carro por um dia. O custo inicial é "R$50" (intercepto "b") e você é cobrado "R$30" por dia (taxa de variação "m"). A função que modela o custo "f(x)" em relação ao número de dias "x" de aluguel é:
+
+\[ f(x) = 30x + 50 \]
+
+Isso significa que a cada dia extra que você aluga o carro, o custo aumenta "R$30", além do custo inicial de "R$50".
+
+=== Exemplo 2: Velocidade e Distância percorrida
+
+Suponha que você está dirigindo em uma estrada reta e constante. A velocidade do carro é "60 km/h" (coeficiente angular "m") e quando você começou a medir o tempo, a distância percorrida era zero (intercepto "b"). A função que relaciona a distância "d" percorrida em função do tempo "t" é:
+
+\[ f(t) = 60t \]
+
+Isso significa que a cada hora que passa, você percorre "60 km".
+
+== Gráfico de Funções Afins:
+
+Os gráficos de funções afins são retas. O coeficiente angular "m" determina a inclinação da reta e o coeficiente linear "b" define onde a reta cruza o eixo "y".
+
+=== Exemplo 1 (Custo de Aluguel de Carro):
+
+- "f(x) = 30x + 50"
+- "m = 30", "b = 50"
+
+Gráfico: A reta passa pelo ponto "(0, 50)" (intercepto "b") e tem uma inclinação de "30" (cada unidade no eixo "x" representa "30" unidades no eixo "y").
+
+=== Exemplo 2 (Velocidade e Distância percorrida):
+
+- "f(t) = 60t"
+- "m = 60", "b = 0"
+
+Gráfico: A reta passa pela origem "(0, 0)" (pois "b = 0") e tem uma inclinação de "60" (cada unidade no eixo "t" representa "60" unidades no eixo "d").
+
+== Conclusão:
+
+As funções afins têm aplicações variadas em situações do mundo real, desde custos financeiros até relações de velocidade e distância. Aprender a interpretar as propriedades dos coeficientes "m" e "b" e a traçar gráficos de funções afins ajudará você a compreender melhor essas relações lineares. Pratique com diferentes exemplos para solidificar seu entendimento e sua capacidade de aplicar esse conhecimento em situações do dia a dia.
