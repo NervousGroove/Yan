@@ -1,5 +1,5 @@
 function acessGithub() {
-    window.location.href = "https://github.com/NervousGroove"
+    window.location.href = "https://github.com/simplyYan"
 }
 
 function acessThor() {
