@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Yan</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jacquard+12&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jacquard+12&family=Michroma&display=swap');
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            font-family: 'Inter';
+        }
+        h1, h2, h3 {
+            font-weight: bold;
+            font-family: Michroma;
+        }
+        .hero {
+            background: #007bff;
+            color: white;
+            padding: 50px 0;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .project img {
+            max-width: 100%;
+        }
+        .skills, .contact {
+            padding: 50px 0;
+        }
+        .skills h2, .contact h2 {
+            margin-bottom: 30px;
+        }
+        .contact form .form-control {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Seção Hero -->
+    <section class="hero text-center">
+        <div class="container">
+            <img src="https://raw.githubusercontent.com/simplyYan/simplyYan/main/walk.gif" alt="Yan: Era para ter uma imagem aqui -_-" width="50" height="50">
+            <h1>Yan</h1>
+            <p>Especialista em Go, PHP, Python, HTML, CSS, JavaScript & Arduino (C++)</p>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="about py-5">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou o Yan, um desenvolvedor apaixonado do Brasil. Adoro programar em JavaScript e Go! Atualmente estudo no Instituto Federal Catarinense (IFC) e tenho experiência em aprendizado de máquina/deep learning com ml5.js. Também sou um hacker ético certificado e trabalhei com diversos sistemas operacionais, incluindo Windows, Linux e macOS.</p>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section class="projects py-5 bg-light">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="row">
+                <div class="col-md-6 project">
+                    <h3>LAGRA</h3>
+                    <p>Um logger na linguagem Go.</p>
+                </div>
+                <div class="col-md-6 project">
+                    <h3>W7DTH</h3>
+                    <p>Uma biblioteca Go de Criptografia.</p>
+                </div>
+                <div class="col-md-6 project">
+                    <h3>leatherfacee.js</h3>
+                    <p>Uma framework JavaScript para front-end.</p>
+                </div>
+                <div class="col-md-6 project">
+                    <h3>GalaktaGlare</h3>
+                    <p>Uma framework Go de machine/deep learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section class="skills">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Linguagens</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Go</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Frameworks/Bibliotecas</h3>
+                    <ul>
+                        <li>Fiber</li>
+                        <li>go-toml</li>
+                        <li>Colly</li>
+                        <li>jwt-go</li>
+                        <li>GCache</li>
+                        <li>go-kit</li>
+                        <li>go-redis</li>
+                        <li>GORM</li>
+                        <li>LAGRA</li>
+                        <li>W7DTH</li>
+                        <li>Heimdall</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Sistemas Operacionais</h3>
+                    <ul>
+                        <li>Windows</li>
+                        <li>Linux</li>
+                        <li>macOS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contact bg-light">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Endereço de Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <button type="submit" onclick="alert('O servidor está recebendo muitas requisições. Tente me contatar por Whatsapp, Discord ou pelo meu email: wesleyy.soaresbrehmer@gmail.com')" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="bootstrap.js"></script>
+</body>
+</html>
